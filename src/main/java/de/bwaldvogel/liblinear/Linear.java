@@ -37,7 +37,7 @@ public class Linear {
     static final Locale        DEFAULT_LOCALE      = Locale.ENGLISH;
 
     private static Object      OUTPUT_MUTEX        = new Object();
-    private static PrintStream DEBUG_OUTPUT        = System.out;
+    private static PrintStream DEBUG_OUTPUT        = null;//System.out;
 
     private static final long  DEFAULT_RANDOM_SEED = 0L;
     static Random              random              = new Random(DEFAULT_RANDOM_SEED);
