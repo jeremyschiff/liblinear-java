@@ -7,3 +7,5 @@
 
 build/
 data/
+project/
+target/
