@@ -21,3 +21,7 @@ autoScalaLibrary := false
 // library dependencies. (orginization name) % (project name) % (version)
 libraryDependencies ++= Seq(
 )
+
+javacOptions in (Compile, compile) ++= Seq("-g")
+
+//logLevel in compile := Level.Debug
